@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="one">Portfolio &#128171;</span>
+
+            <span class="two">
+                <div class="main"><i class="fa-solid fa-bars"></i></div>
+                <ul>
+                    <li class="active Home"><a href="#Home"  ><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li class="About"><a href="#About"> <i class="fa-solid fa-address-card"></i> About</a></li>
+                    <li class="Education" ><a href="#Education" ><i class="fa-solid fa-user-graduate"></i>Education</a></li>
+                    <li class="Skills"><a href="#Skills" ><i class="fa-solid fa-code"></i>Skills</a></li>
+                    
+                    <li class="Projects"><a href="#Projects"><i class="fa-regular fa-star"></i>Projects</a></li>
+                    <li class="Resume"><a href="#Resume" ><i class="fa-regular fa-file"></i>Resume</a></li>
+                    <li class="Contact"><a href="#Contact"><i class="fa-regular fa-envelope"></i>Contact</a></li>
+                    <div class="close"><i class="fa-solid fa-xmark"></i></div>
+                    </ul>
+                </span>
+        </nav>
+
+    </header>
+    <main>
+        <section class="Home" id="Home">
+            <span class="intro">
+                <p class="top">Hello <span class="wave">&#128075;</span>  I'm <p class="name">Kuntal Roy</p></p> 
+                <p class="top">a <span id="element"></span></p>
+                
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/kuntal-roy-116b27256/"><i class='bx bxl-linkedin' id="link"></i></a>
+                    <a href="https://github.com/KuntalRoy04"><i class='bx bxl-github' id="git"></i></a>
+                    
+                    
+                </div>
+                <div class="cv1"> <a href="cv.pdf" download class="document" ><button class="get">Download CV<i class='bx bxs-download'></i></button></a></div>
+            </span>
+            <span class="image">
+                <img  class="i"  src="https://camo.githubusercontent.com/0f2df9c6430300192232520a10bc3f09066cee3c6f1205da8490ac2b1d69d9e5/68747470733a2f2f6d69722d73332d63646e2d63662e626568616e63652e6e65742f70726f6a6563745f6d6f64756c65732f646973702f3630313031343131363737303437352e363036386265666634363430612e676966">
+
+            </span>
+            
+        </section>
+        <section class="About" id="About">
+            
+            <span class="image">
+                <div class="me">
+                <img src="me.png" alt="Me" class="i">
+            </div>
+            <div class="blob">
+                <img src="blobanimation.svg" alt="Me" id="blobs">
+            </div>
+                
+
+            </span>
+            <span class="intro">
+                <h1>About <span class="cyan">me</span></h1>
+                <p class="dowm">
+                    Hello! I'm Kuntal Roy, and I'm thrilled to welcome you to my portfolio. As an aspiring computer science enthusiast, I've embarked on an exciting journey to expand my horizons and delve into the world of technology. Let me share a bit about myself.I am a CSIT B.Tech undergrad from University of Engineering and Management,Kolkata.I have developed my skills in web development in CSS,HTML,Javascript and learnt Frameworks like React.I am well versed in java and C programming and also participated in many competitive programming contests</p>
+<p class="dowm" id="see"> My academic journey began at Army Public School, Barrackpore. It was here that I developed a love for learning and laid the groundwork for my future endeavors. During my time at Army Public School, I completed my Secondary Examination(CBSE) with an impressive score of 86.4%, showcasing my dedication and commitment to academic excellence. Following that, I achieved a remarkable score of 91.2% in the Higher Secondary(CBSE) examinations, further demonstrating my consistent determination to excel in my studies.
+My passion for technology has driven me to explore various facets of computer science. From coding to problem-solving, I've always been captivated by the art and science of creating innovative solutions through programming. The ever-evolving landscape of technology motivates me to stay updated with the latest trends and breakthroughs in the field</p>
+<div class="more"> <button id="more">Click for More</button></div>
+                
+            </span>
+        </section>
+        <section class="Education" id="Education">
+            <h1>My <span class="cyan">Education</span></h1>
+            <div class="outer">
+            <div class="box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2 class="type">Btech in Computer Science and Information Technology (2022-2026)</h2>
+                <p>Studing in University of Engineering and Management ,Kolkata</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2 class="type">CBSE (Higher Secondary)</h2>
+                <p>Successfully passed with 91.2% with Science(PCMB)</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2 class="type">CBSE (Secondary)</h2>
+                <p>Successfully passed with 86.4%</p>
+            </div>
+        </div>
+        </section>
+        <section class="Skills" id="Skills">
+            <h1>My <span class="cyan">Skills</span></h1>
+            <div class="skills">
+                <div class="technical">
+                    <h2>Technical Skills</h2>
+                    <div class="skill la1">
+                        <p><i class='bx bxl-java'></i>Java</p>
+                        <input type="range" name="range" id="java" value="30" min="0" max="100" disabled class="range">30%
+                    </div>
+                    <div class="skill la2">
+                        <p><i class='bx bxl-c-plus-plus'></i>C programming</p>
+                        <input type="range" name="range" id="c" value="50" min="0" max="100" disabled class="range">50%
+                    </div>
+                    <div class="skill la3">
+                        <p><i class='bx bxl-python'></i>Python</p>
+                        <input type="range" name="range" id="python" value="55" min="0" max="100" disabled class="range">55%
+                    </div>
+                    <div class="skill la4">
+                        <p><i class='bx bxl-html5' ></i>Html</p>
+                        <input type="range" name="range" id="html" value="70" min="0" max="100" disabled class="range">70%
+                    </div>
+                    <div class="skill la5">
+                        <p><i class='bx bxl-css3' ></i>Css</p>
+                        <input type="range" name="range" id="css" value="50" min="0" max="100" disabled class="range">50%
+                    </div>
+                    <div class="skill la6">
+                        <p><i class='bx bxl-javascript' ></i>Javascript</p>
+                        <input type="range" name="range" id="javascript" value="40" min="0" max="100" disabled class="range">40%
+                    </div>
+                    <div class="skill la7">
+                        <p><i class='bx bxl-react' ></i>React js</p>
+                        <input type="range" name="range" id="react" value="30" min="0" max="100" disabled class="range">30%
+                    </div>
+                    
+                </div>
+                <div class="professional">
+                    <h2>Professional Skills</h2>
+                    <div class="skill1">
+                        <p>Communication Skills</p>
+                        
+                    </div>
+                    <div class="skill1">
+                        <p>Creativity</p>
+                        
+                    </div>
+                    <div class="skill1">
+                        <p>Team Work</p>
+                        
+                    </div>
+                    <div class="skill1">
+                        <p>Leadership Quality</p>
+                        
+                    </div>
+                    <div class="skill1">
+                        <p>Problem Solving</p>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            
+        </section>
+        <section class="Projects" id="Projects">
+            <h1>My <span class="cyan">Projects</span></h1>
+            <div class="projects">
+                <div class="advice p">
+                    <img src="advice.jpg" alt="P1"  class="pic">
+                    <div class="layer">
+                        <h3>Project 1 Name</h3>
+                        <p>Project 1 Description</p>
+                        <a href="LINK"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="nft p">
+                    <img src="nft.jpg" alt="P2" class="pic">
+                    <div class="layer">
+                        <h3>Project 2 Name</h3>
+                        <p>Project Details</p>
+                        <a href="LINK"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="code p">
+                    <img src="code.jpg" alt="P3" class="pic">
+                    <div class="layer">
+                        <h3>Project 3 Name</h3>
+                        <p>Project Detail</p>
+                        <a href="LINK"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="food p">
+                    <img src="food.jpg" alt="P4" class="pic">
+                    <div class="layer">
+                        <h3>Project 4 Name</h3>
+                        <p>Project Detail</p>
+                        <a href="LINK"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Resume" id="Resume">
+            <h1>My <span class="cyan">Resume</span></h1>
+            <span id="cv"></span>
+            <div class="cv"> <a href="cv.pdf" download class="document" ><button class="get">Download CV<i class='bx bxs-download'></i></button></a></div>
+        </section>
+        <section class="Contact" id="Contact">
+            <h1>Lets <span class="cyan">Connect!</span></h1>
+            <div class="give">
+            <div class="details">
+                <h2>Get in Touch</h2>
+                <p> Let's connect and create something amazing together! Feel free to reach out and let's start a conversation. Looking forward to hearing from you!</p>
+                <div class="email"><i class='bx bxl-gmail'></i>kuntalroy0204@gmail.com</div>
+                <div class="phn"><i class='bx bxs-phone'></i>+91 9051688748</div>
+            </div>
+            <div class="contact">
+                <form action="">
+                    <input type="text" name="name" id="nn" placeholder="Enter Your Name">
+                    <input type="email" name="email" id="em" placeholder="Enter your email">
+                    <input type="text" name="sub" id="sub" placeholder="Enter Subject">
+                    <textarea name="write" id="msg" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                    <button type="button" id="submit" value="button">Send<i class='bx bx-send'></i></button>
+                </form>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p >&copy; Kuntal Roy 2023, All Rights Reserved</p>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js" ></script>
+</body> 
+</html>
